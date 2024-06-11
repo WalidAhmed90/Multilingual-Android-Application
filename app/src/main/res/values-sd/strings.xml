@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ملٽي لساني ايپليڪيشن</string>
+    <string name="select_language">ٻولي چونڊيو</string>
+    <string name="english">انگريزي</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">هيلو خالي ٽڪرو</string>
+    <string name="enter_password">پاسورڊ داخل ڪريو</string>
+    <string name="forget_password">پاسورڊ وساريو</string>
+    <string name="username">يوزر نالو</string>
+    <string name="login">لاگ ان</string>
+    <string name="register">رجسٽر</string>
+</resources>

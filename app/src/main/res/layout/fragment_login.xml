@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".LoginFragment">
+    
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_light_blue"
+            tools:context=".fragments.splash.SplashFragment">
+
+
+
+
+            <com.example.multilingualapplication.CustomEditText
+                android:id="@+id/cv_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="50dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp"
+                app:strokeWidth="0dp"
+                app:strokeColor="@color/white"
+                android:hint="@string/username"
+                android:textColorHint="@color/light_grey_color"
+                android:inputType="text"
+                android:maxLines="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+
+            <com.example.multilingualapplication.CustomEditText
+                android:id="@+id/cv_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp"
+                app:strokeWidth="0dp"
+                app:strokeColor="@color/white"
+                android:hint="@string/enter_password"
+                android:textColorHint="@color/light_grey_color"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cv_username"/>
+
+            <TextView
+                android:id="@+id/tv_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/forget_password"
+                android:textColor="@color/btn_blue_color"
+                app:layout_constraintEnd_toEndOf="@+id/cv_password"
+                app:layout_constraintTop_toBottomOf="@+id/cv_password" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_login"
+                style="@style/button_blue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_forget_password" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register"
+                style="@style/button_blue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".30" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

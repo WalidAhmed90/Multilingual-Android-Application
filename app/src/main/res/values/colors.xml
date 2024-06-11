@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light_blue">#E6EFF8</color>
+    <color name="light_black">#242424</color>
+    <color name="btn_blue_color">#004AAD</color>
+    <color name="light_grey_color">#BAB6B6</color>
+    <color name="green_color">#128B47</color>
+    <color name="filter_blue_color">#CCDEF6</color>
+    <color name="placeholder_color">#D9D9D9</color>
+    <color name="bg_card_color">#F4F4F4</color>
+    <color name="divider_color">#9A9A9A</color>
+    <color name="light_black_2">#414141</color>
+    <color name="black50">#80000000</color>
+    <color name="light_grey">#F8F8F8</color>
+</resources>

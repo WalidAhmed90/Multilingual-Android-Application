@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">کثیر لسانی ایپلی کیشن</string>
+    <string name="select_language">زبان منتخب کریں۔</string>
+    <string name="english">انگریزی</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ہیلو خالی ٹکڑا</string>
+    <string name="enter_password">پاس ورڈ درج کریں</string>
+    <string name="forget_password">پاس ورڈ بھول جانا</string>
+    <string name="username">صارف نام</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="register">رجسٹر کریں۔</string>
+</resources>
